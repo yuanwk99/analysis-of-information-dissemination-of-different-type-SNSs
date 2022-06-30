@@ -21,3 +21,22 @@
 (4)#苏炳添男子百米第6# \
 微博事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/话题生命周期/微博-苏炳添.html)\
 抖音事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/话题生命周期/抖音-苏炳添.html)
+
+### 4.2.2热点事件的热门帖子的生命周期演化分析
+
+(1)#甘肃山地马拉松事故21人遇难# \
+微博事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/wb评论-甘肃.html)\
+抖音事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/dy评论-甘肃.html)
+
+(2)#台风烟花# \
+微博事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/wb评论-台风烟花.html)\
+抖音事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/dy评论-台风烟花.html)
+
+(3)#千万不要随便回复网友评论# \
+微博事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/wb评论-千万不要.html)\
+抖音事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/dy评论-千万不要.html)
+
+(4)#苏炳添男子百米第6# \
+微博事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/wb评论-苏炳添.html)\
+抖音事件生命周期 [查看演化详情]( https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/survey2/帖子生命周期/dy评论-苏炳添.html)
+

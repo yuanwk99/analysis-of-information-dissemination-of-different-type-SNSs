@@ -11,16 +11,16 @@
 ## 3.2.2基于深度学习算法的热点事件的主题分类模型
 利用微博热搜API获得微博热点话题的所属主题类别，将微博热搜的标题名称经过去重后，共计15718条热搜名称。其中，微博热点话题的主题类别为“暂无”的有1325条，将其余数据按照9:1的比例划分训练集和验证集，将微博热点话题的主题类别为“暂无”和抖音的所有热点话题的数据作为训练集。采用Bert及其优化模型进行文本标题分类模型的训练和预测。我们采用三种预训练模，采取focal loss和采用Over-Sampling的两种策略解决类别的分布不均衡的问题（效果如表4.1）。结果表明，Roberta加Over-Sampling的效果最好，在验证集得到了0.967的F1指标。 \
 
-|  models	|Sampling	  |focal loss|Sampling	  |focal loss|
-|--|--|--|--|--|--|
-| | F1 |macro F1 | F1 |macro F1 |
-| chinese-bert-base | 0.9436	|0.9416|	0.8111|	0.7018 |
-| chinese-bert-wwm-ext | 0.9487|	0.947	|0.8147	|0.712 |
-| chinese-roberta-wwm-ext-large |**0.967**|	0.966	|0.8353|	0.7353  |
+  models	|Sampling	  |focal loss|Sampling	  |focal loss
+----|----|----|----|----|----
+ | F1 |macro F1 | F1 |macro F1 
+ chinese-bert-base | 0.9436	|0.9416|	0.8111|	0.7018 
+ chinese-bert-wwm-ext | 0.9487|	0.947	|0.8147	|0.712 
+ chinese-roberta-wwm-ext-large |**0.967**|	0.966	|0.8353|	0.7353  
 
 ## 4．1．2 共同-特有热点事件分类算法
 本文利用LAC工具对热点话题的标题名称实现词性标注，得到标题的分词集合与词性集合，并对不同平台的标题集合计算Jaccard相似度，若Jaccard相似度大于阈值且两个集合中人名、组织名、地名、时间、数量、动词等决定标题含义的实词相同，则将该标题加入共同热点话题集合，否则将该标题加入社交媒体平台的特有话题，具体算法如下
-![图片](https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/algorithm/热点事件主题的横纵向的主题合并规则.png)
+![图片](https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/algorithm/社交平台共同-特有热点话题分类算法.png)
 
 
 

@@ -25,8 +25,9 @@ chinese-roberta-wwm-ext-large |**0.967**|	0.966	|0.8353|	0.7353
 
 ## 4.2热点事件主题的时间序列分析
 （1）每个主题以月份为周期的季节性箱型图
-
+![图片](https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/月份为周期.png)
 （2）每个主题以星期为周期的季节性箱型图
+![图片](https://yuanwk99.github.io/analysis-of-information-dissemination-of-different-type-SNSs/results/星期为周期.png)
 
 ## 4.3热点事件在不同社交媒体平台的生命周期分析
 
